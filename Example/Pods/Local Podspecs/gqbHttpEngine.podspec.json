@@ -1,0 +1,22 @@
+{
+  "name": "gqbHttpEngine",
+  "version": "0.1.0",
+  "summary": "A short description of gqbHttpEngine.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shuyangxiaobao/gqbHttpEngine",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shuyangxiaobao": "825065886@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/shuyangxiaobao/gqbHttpEngine.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "gqbHttpEngine/Classes/**/*"
+}
