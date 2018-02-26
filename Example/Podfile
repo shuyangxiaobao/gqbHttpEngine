@@ -1,7 +1,8 @@
 use_frameworks!
 
 target 'gqbHttpEngine_Example' do
-  pod 'gqbHttpEngine', :path => '../'
+  pod 'gqbHttpEngine', :path => '../gqbHttpEngine.podspec'
+  pod 'AFNetworking', '~> 3.2.0'
 
   target 'gqbHttpEngine_Tests' do
     inherit! :search_paths
@@ -12,3 +13,5 @@ target 'gqbHttpEngine_Example' do
     pod 'Expecta+Snapshots'
   end
 end
+
+

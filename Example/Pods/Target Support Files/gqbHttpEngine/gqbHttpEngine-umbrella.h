@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "HTTPEngine.h"
+#import "ONEViewController.h"
+#import "TWOViewController.h"
+#import "XMLDictionary.h"
 
 FOUNDATION_EXPORT double gqbHttpEngineVersionNumber;
 FOUNDATION_EXPORT const unsigned char gqbHttpEngineVersionString[];
