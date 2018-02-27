@@ -1,8 +1,5 @@
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
-#import "AFNetworking.h"
-#import "AFURLRequestSerialization.h"
-
 #else
 #ifndef FOUNDATION_EXPORT
 #if defined(__cplusplus)
@@ -12,4 +9,10 @@
 #endif
 #endif
 #endif
+
+#import "XMLDictionary.h"
+#import "HTTPEngine.h"
+
+FOUNDATION_EXPORT double gqbaoHttpEngineVersionNumber;
+FOUNDATION_EXPORT const unsigned char gqbaoHttpEngineVersionString[];
 

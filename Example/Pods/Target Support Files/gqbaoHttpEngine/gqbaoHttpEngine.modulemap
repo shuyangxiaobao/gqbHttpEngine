@@ -1,0 +1,6 @@
+framework module gqbaoHttpEngine {
+  umbrella header "gqbaoHttpEngine-umbrella.h"
+
+  export *
+  module * { export * }
+}

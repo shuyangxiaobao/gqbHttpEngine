@@ -326,12 +326,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-gqbHttpEngine_Example/Pods-gqbHttpEngine_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/gqbHttpEngine/gqbHttpEngine.framework",
+				"${BUILT_PRODUCTS_DIR}/gqbaoHttpEngine/gqbaoHttpEngine.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/gqbHttpEngine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/gqbaoHttpEngine.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
