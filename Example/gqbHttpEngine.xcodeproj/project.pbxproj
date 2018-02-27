@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16729EA937EB400B8A4C7C15 /* gqbHttpEngine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = gqbHttpEngine.podspec; path = ../gqbHttpEngine.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		16729EA937EB400B8A4C7C15 /* gqbaoHttpEngine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = gqbaoHttpEngine.podspec; path = ../gqbaoHttpEngine.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		21F5BDFFC5DF51384B7D4D79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* gqbHttpEngine_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gqbHttpEngine_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -178,7 +178,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				16729EA937EB400B8A4C7C15 /* gqbHttpEngine.podspec */,
+				16729EA937EB400B8A4C7C15 /* gqbaoHttpEngine.podspec */,
 				21F5BDFFC5DF51384B7D4D79 /* README.md */,
 				F1056EA073FEBB28132ADF51 /* LICENSE */,
 			);

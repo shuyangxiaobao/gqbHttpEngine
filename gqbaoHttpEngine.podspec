@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'gqbHttpEngine'
-  s.version          = '0.5.0'
+  s.name             = 'gqbaoHttpEngine'
+  s.version          = '1.0.1'
   s.summary          = 'gqbHttpEngine.'
 
 # This description is used to generate tags and improve search results.
@@ -40,14 +40,10 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 3.2.0'
    s.subspec 'OneVC' do |ss|
-       ss.source_files = 'gqbHttpEngine/Classes/OneVC/ONEViewController.{h,m}'
-     ss.public_header_files = 'gqbHttpEngine/Classes/OneVC/ONEViewController.h'
+       ss.source_files = 'gqbHttpEngine/Classes/ONEViewController.{h,m}'
+     ss.public_header_files = 'gqbHttpEngine/Classes/ONEViewController.h'
      # ss.frameworks = 'OneVC'
    end
-  
-  
 
-  
-  
   
 end

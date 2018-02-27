@@ -5,7 +5,7 @@
 //  Created by HuangSam on 16/8/29.
 //  Copyright © 2016年 suneee. All rights reserved.
 //
-//0.5.0
+//1.0.1
 #import <Foundation/Foundation.h>
 @protocol AFMultipartFormData;  //需要申明协议，否则无法通过
 @interface HTTPEngine : NSObject

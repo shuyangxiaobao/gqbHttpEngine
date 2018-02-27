@@ -107,11 +107,10 @@
 		8B8C4B3E28E6FC6D26037EFC282BE4C5 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2E404DD1CA8AB9AAB4C70AA8DC72B6 /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C14546CF091E0A5B1F0F37F576990B8 /* EXPMatchers+beginWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 966B8C5D10F46243EDC3350C55CE6704 /* EXPMatchers+beginWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D49114979B44DF683A9A964565E0FE6 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A04A79618834AB0941D2EE17D456EAE0 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E44880826BD95959BA2EA59AD6CCD47 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E03A8B0BA3AA7F093F998D58AE87D38 /* ReplaceMe.m */; };
 		8EDC47391C8554AD5C7A91C4D5AFC5F2 /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A80D8817D0B43D380FD1C8072FB312B /* SPTExampleGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F990515E868D90C15D2148DD1A22403 /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C69FA1517086A1CEAECC3815097A17 /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		907500212045072C008605B0 /* ONEViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9075001F2045072C008605B0 /* ONEViewController.h */; };
-		907500222045072C008605B0 /* ONEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907500202045072C008605B0 /* ONEViewController.m */; };
+		9075002520452E8F008605B0 /* ONEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9075002320452E8F008605B0 /* ONEViewController.m */; };
+		9075002620452E8F008605B0 /* ONEViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9075002420452E8F008605B0 /* ONEViewController.h */; };
 		9264BD69AFA8EE74F0D7F0EBD74F762F /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4DE5FBDD03CFCB42200B336D5A182A /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93DFC0CC12E763AE770017349EE009D1 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F21EB33B42BECEAEC8C4F7503830A5D /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		948458DC0A9308A2D8C018C37FB7BBDD /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 282BCBBAC413543DB23E715F7BE47106 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -418,12 +417,12 @@
 		8A2C0ACBFD209CB55B9657D299B6BE5A /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
 		8C24CF0BACC89744DCDE0E73FB33842F /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
 		8D68468EE38CCAEEC986701108376EA9 /* TWOViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWOViewController.m; path = gqbHttpEngine/Classes/TWOViewController.m; sourceTree = "<group>"; };
-		8E03A8B0BA3AA7F093F998D58AE87D38 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = gqbHttpEngine/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		8F21EB33B42BECEAEC8C4F7503830A5D /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		8FCD920DC523924FE7AB13983EF66970 /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
 		8FD9C82AD6638334CA9107F7CDE5B5AC /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
-		9075001F2045072C008605B0 /* ONEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONEViewController.h; sourceTree = "<group>"; };
-		907500202045072C008605B0 /* ONEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONEViewController.m; sourceTree = "<group>"; };
+		9075002320452E8F008605B0 /* ONEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ONEViewController.m; path = gqbHttpEngine/Classes/ONEViewController.m; sourceTree = "<group>"; };
+		9075002420452E8F008605B0 /* ONEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ONEViewController.h; path = gqbHttpEngine/Classes/ONEViewController.h; sourceTree = "<group>"; };
+		9075002720452F6F008605B0 /* readme */ = {isa = PBXFileReference; lastKnownFileType = text; name = readme; path = gqbHttpEngine/Classes/readme; sourceTree = "<group>"; };
 		907F002D06121E7F3371BB57C7C8876A /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
 		91A78A2B205744087AD9DCD2070F0929 /* Expecta+Snapshots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-umbrella.h"; sourceTree = "<group>"; };
 		92822D2ED49DE1CE21FEAB463E94EEE2 /* HTTPEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPEngine.m; path = gqbHttpEngine/Classes/HTTPEngine.m; sourceTree = "<group>"; };
@@ -794,16 +793,6 @@
 			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
-		9075001E2045072C008605B0 /* OneVC */ = {
-			isa = PBXGroup;
-			children = (
-				9075001F2045072C008605B0 /* ONEViewController.h */,
-				907500202045072C008605B0 /* ONEViewController.m */,
-			);
-			name = OneVC;
-			path = gqbHttpEngine/Classes/OneVC;
-			sourceTree = "<group>";
-		};
 		93D8F8815EFA69F15E238FDB2743FDFD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -851,10 +840,11 @@
 		A6CCAEB4DF0BA3D7DBF01E27665A793E /* gqbHttpEngine */ = {
 			isa = PBXGroup;
 			children = (
-				9075001E2045072C008605B0 /* OneVC */,
+				9075002720452F6F008605B0 /* readme */,
+				9075002420452E8F008605B0 /* ONEViewController.h */,
+				9075002320452E8F008605B0 /* ONEViewController.m */,
 				057D69A4A9510DEC7A42AC0EF4756421 /* HTTPEngine.h */,
 				92822D2ED49DE1CE21FEAB463E94EEE2 /* HTTPEngine.m */,
-				8E03A8B0BA3AA7F093F998D58AE87D38 /* ReplaceMe.m */,
 				C07E148910735FC13F8B99587C5802DC /* TWOViewController.h */,
 				8D68468EE38CCAEEC986701108376EA9 /* TWOViewController.m */,
 				D2A47AD4BFB65724FB80E711A531FD46 /* XMLDictionary.h */,
@@ -1219,7 +1209,7 @@
 				E23B9A6F533461CB33C0FA6FB59E3AB2 /* UIKit+AFNetworking.h in Headers */,
 				F84DD74BB7F612DE372F8C051420DF72 /* UIProgressView+AFNetworking.h in Headers */,
 				00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */,
-				907500212045072C008605B0 /* ONEViewController.h in Headers */,
+				9075002620452E8F008605B0 /* ONEViewController.h in Headers */,
 				51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1486,7 +1476,7 @@
 				CF287829627F26B2EB4382B897D06A0E /* AFNetworking-dummy.m in Sources */,
 				DD887A93A200A87A51B3D00BD1B80D20 /* AFNetworkReachabilityManager.m in Sources */,
 				CEB2F0E229EF841D92C780C3FFDF1BEA /* AFSecurityPolicy.m in Sources */,
-				907500222045072C008605B0 /* ONEViewController.m in Sources */,
+				9075002520452E8F008605B0 /* ONEViewController.m in Sources */,
 				29476636EA86BEFC4CB833D3BB7A52D7 /* AFURLRequestSerialization.m in Sources */,
 				5A1D34D104D42B1EE399E23BCD7935A0 /* AFURLResponseSerialization.m in Sources */,
 				D4E80BD7EAAB83200183110578A80591 /* AFURLSessionManager.m in Sources */,
@@ -1557,7 +1547,6 @@
 			files = (
 				C2595087C7BD52A9D57B4F7F1EB17D19 /* gqbHttpEngine-dummy.m in Sources */,
 				76F9DB7146A584E3DEB7C2694B0E81EA /* HTTPEngine.m in Sources */,
-				8E44880826BD95959BA2EA59AD6CCD47 /* ReplaceMe.m in Sources */,
 				E5225521B13FCAEAE07524CF0AD29128 /* TWOViewController.m in Sources */,
 				8A5AE068ED9E452255AD5177F907E36A /* XMLDictionary.m in Sources */,
 			);
