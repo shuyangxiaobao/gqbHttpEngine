@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'gqbaoHttpEngine'
-  s.version          = '1.0.7'
+  s.version          = '1.0.8'
   s.summary          = 'gqbHttpEngine.'
 
 # This description is used to generate tags and improve search results.
@@ -41,9 +41,11 @@ TODO: Add long description of the pod here.
   s.dependency 'AFNetworking', '~> 3.2.0'
   
   
-  s.subspec 'HTTP' do |app|
-      app.source_files = 'gqbHttpEngine/Classes/HTTP/**/*'
-  end
+      s.subspec 'httpEngine' do |f|
+          #  app.source_files = 'gqbHttpEngine/Classes/HTTP/**/*'
+          f.source_files = 'gqbHttpEngine/Classes/httpEngine/**/*'
+
+      end
     
     s.subspec 'XML' do |f|
     f.source_files = 'gqbHttpEngine/Classes/XML/**/*'

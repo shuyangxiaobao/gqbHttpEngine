@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'gqbHttpEngine_Example' do
-  pod 'gqbHttpEngine', :path => '../gqbaoHttpEngine.podspec'
+  pod 'gqbaoHttpEngine', :path => '../gqbaoHttpEngine.podspec'
   pod 'AFNetworking', '~> 3.2.0'
 
   target 'gqbHttpEngine_Tests' do
