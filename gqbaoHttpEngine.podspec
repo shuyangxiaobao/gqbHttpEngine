@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'gqbaoHttpEngine'
-  s.version          = '1.0.10'
+  s.version          = '1.0.11'
   s.summary          = 'gqbHttpEngine.'
 
 # This description is used to generate tags and improve search results.
@@ -45,7 +45,7 @@ s.source_files = 'gqbHttpEngine/gqbHttpEngine/**/*'
   
   
      s.subspec 'CustomView' do |f|
-       f.source_files = 'gqbHttpEngine/Classes/MyView.{h,m}'
+          f.source_files = 'gqbHttpEngine/Classes/MyView.{h,m}'
      end
     
     s.subspec 'XML' do |f|

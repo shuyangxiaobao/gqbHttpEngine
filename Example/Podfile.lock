@@ -51,7 +51,7 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  gqbaoHttpEngine: bd5736d2f09e1cf3cc5ef29e552695685f690d49
+  gqbaoHttpEngine: a0b771afa7f4a9e5df484d30c8ada887a9f7e713
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
 PODFILE CHECKSUM: 591c286efc9ad171cdc21ef30e2b959bce6b9e93
