@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'gqbaoHttpEngine'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'gqbHttpEngine.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-s.source_files = 'gqbHttpEngine/gqbHttpEngine/**/*'
+#s.source_files = 'gqbHttpEngine/gqbHttpEngine/**/*'
   
   # s.resource_bundles = {
   #   'gqbHttpEngine' => ['gqbHttpEngine/Assets/*.png']
@@ -39,11 +39,11 @@ s.source_files = 'gqbHttpEngine/gqbHttpEngine/**/*'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 3.2.0'
-    s.subspec 'HTTP2' do |f|
+    s.subspec 'HTTP' do |f|
     f.source_files = 'gqbHttpEngine/Classes/HTTP/**/*'
     end
     
-    s.subspec 'XML2' do |f|
+    s.subspec 'XML' do |f|
         f.source_files = 'gqbHttpEngine/Classes/XML/**/*'
     end
     
