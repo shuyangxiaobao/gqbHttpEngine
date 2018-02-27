@@ -43,7 +43,7 @@ s.source_files = 'gqbHttpEngine/gqbHttpEngine/**/*'
   s.dependency 'AFNetworking', '~> 3.2.0'
   
   
-      s.subspec 'httpEngine' do |f|
+      s.subspec 'engine' do |f|
           #  app.source_files = 'gqbHttpEngine/Classes/HTTP/**/*'
           f.source_files = 'gqbHttpEngine/Classes/HTTPEngine.{h,m}'
 
