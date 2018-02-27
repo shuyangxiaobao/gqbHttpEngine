@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'gqbaoHttpEngine'
-  s.version          = '1.0.9'
+  s.version          = '1.0.10'
   s.summary          = 'gqbHttpEngine.'
 
 # This description is used to generate tags and improve search results.
@@ -44,11 +44,11 @@ s.source_files = 'gqbHttpEngine/gqbHttpEngine/**/*'
   
   
   
-    s.subspec 'XML' do |f|
+    s.subspec 'XML2' do |f|
         f.source_files = 'gqbHttpEngine/Classes/XMLDictionary.{h,m}'
     end
     
-    s.subspec 'QT' do |f|
+    s.subspec 'XML' do |f|
         f.source_files = 'gqbHttpEngine/Classes/HTTPEngine.{h,m}'
     end
     
