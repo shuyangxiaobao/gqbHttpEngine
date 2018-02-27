@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'gqbaoHttpEngine'
-  s.version          = '1.0.8'
+  s.version          = '1.0.9'
   s.summary          = 'gqbHttpEngine.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-s.source_files = 'gqbHttpEngine/gqbHttpEngine/**/*' ,'gqbHttpEngine/Classes/httpEngine/**/*'
+s.source_files = 'gqbHttpEngine/gqbHttpEngine/**/*'
+
+#,'gqbHttpEngine/Classes/httpEngine/**/*'
   
   # s.resource_bundles = {
   #   'gqbHttpEngine' => ['gqbHttpEngine/Assets/*.png']
@@ -43,12 +45,12 @@ s.source_files = 'gqbHttpEngine/gqbHttpEngine/**/*' ,'gqbHttpEngine/Classes/http
   
       s.subspec 'httpEngine' do |f|
           #  app.source_files = 'gqbHttpEngine/Classes/HTTP/**/*'
-          #  f.source_files = 'gqbHttpEngine/Classes/XML/**/*'
+          f.source_files = 'gqbHttpEngine/Classes/HTTPEngine.{h,m}'
 
       end
     
     s.subspec 'XML' do |f|
-    f.source_files = 'gqbHttpEngine/Classes/XML/**/*'
+        f.source_files = 'gqbHttpEngine/Classes/XMLDictionary.{h,m}'
     end
     
    #  /Users/geqiangbao/Github/gqbHttpEngine/gqbHttpEngine/Classes/HTTP/HTTPEngine.h

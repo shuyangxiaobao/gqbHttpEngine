@@ -18,6 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
+  "source_files": "gqbHttpEngine/gqbHttpEngine/**/*",
   "dependencies": {
     "AFNetworking": [
       "~> 3.2.0"
@@ -26,11 +27,11 @@
   "subspecs": [
     {
       "name": "httpEngine",
-      "source_files": "gqbHttpEngine/Classes/httpEngine/**/*"
+      "source_files": "gqbHttpEngine/Classes/HTTPEngine.{h,m}"
     },
     {
       "name": "XML",
-      "source_files": "gqbHttpEngine/Classes/XML/**/*"
+      "source_files": "gqbHttpEngine/Classes/XMLDictionary.{h,m}"
     }
   ]
 }
