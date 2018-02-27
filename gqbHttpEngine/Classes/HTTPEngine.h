@@ -5,8 +5,9 @@
 //  Created by HuangSam on 16/8/29.
 //  Copyright © 2016年 suneee. All rights reserved.
 //
-
+//0.4.0
 #import <Foundation/Foundation.h>
+//#import "AFNetworking.h"
 
 @interface HTTPEngine : NSObject
 
