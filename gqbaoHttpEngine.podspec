@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'gqbaoHttpEngine'
-  s.version          = '1.0.9'
+  s.version          = '1.0.10'
   s.summary          = 'gqbHttpEngine.'
 
 # This description is used to generate tags and improve search results.
@@ -43,14 +43,13 @@ s.source_files = 'gqbHttpEngine/gqbHttpEngine/**/*'
   s.dependency 'AFNetworking', '~> 3.2.0'
   
   
-      s.subspec 'engine' do |f|
-          #  app.source_files = 'gqbHttpEngine/Classes/HTTP/**/*'
-          f.source_files = 'gqbHttpEngine/Classes/HTTPEngine.{h,m}'
-
-      end
+  
+     s.subspec 'CustomView' do |f|
+       f.source_files = 'gqbHttpEngine/Classes/MyView.{h,m}'
+     end
     
     s.subspec 'XML' do |f|
-        f.source_files = 'gqbHttpEngine/Classes/XMLDictionary.{h,m}'
+        f.source_files = 'gqbHttpEngine/Classes/XMLDictionary.{h,m}' , 'gqbHttpEngine/Classes/HTTPEngine.{h,m}'
     end
     
    #  /Users/geqiangbao/Github/gqbHttpEngine/gqbHttpEngine/Classes/HTTP/HTTPEngine.h

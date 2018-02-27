@@ -11,6 +11,7 @@
 #endif
 
 #import "gqbHttpEngine.h"
+#import "MyView.h"
 #import "XMLDictionary.h"
 #import "HTTPEngine.h"
 

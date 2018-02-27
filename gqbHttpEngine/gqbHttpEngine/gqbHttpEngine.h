@@ -9,5 +9,6 @@
 #define Header_h
 
 #import "HTTPEngine.h"
+#import "XMLDictionary.h"
 
 #endif /* Header_h */

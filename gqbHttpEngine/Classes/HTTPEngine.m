@@ -7,6 +7,7 @@
 //
 
 #import "HTTPEngine.h"
+#import <XML/XMLDictionary.h>
 #import "XMLDictionary.h"
 #import "AFNetworking.h"
 
@@ -163,6 +164,7 @@
 }
 
 @end
+
 
 
 

@@ -1,6 +1,6 @@
 {
   "name": "gqbaoHttpEngine",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "summary": "gqbHttpEngine.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/shuyangxiaobao/gqbHttpEngine",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/shuyangxiaobao/gqbHttpEngine.git",
-    "tag": "1.0.8"
+    "tag": "1.0.10"
   },
   "platforms": {
     "ios": "8.0"
@@ -26,12 +26,15 @@
   },
   "subspecs": [
     {
-      "name": "httpEngine",
-      "source_files": "gqbHttpEngine/Classes/HTTPEngine.{h,m}"
+      "name": "CustomView",
+      "source_files": "gqbHttpEngine/Classes/MyView.{h,m}"
     },
     {
       "name": "XML",
-      "source_files": "gqbHttpEngine/Classes/XMLDictionary.{h,m}"
+      "source_files": [
+        "gqbHttpEngine/Classes/XMLDictionary.{h,m}",
+        "gqbHttpEngine/Classes/HTTPEngine.{h,m}"
+      ]
     }
   ]
 }
