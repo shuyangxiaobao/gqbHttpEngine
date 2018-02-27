@@ -11,8 +11,8 @@
 #endif
 
 #import "gqbHttpEngine.h"
-#import "XMLDictionary.h"
 #import "HTTPEngine.h"
+#import "XMLDictionary.h"
 
 FOUNDATION_EXPORT double gqbaoHttpEngineVersionNumber;
 FOUNDATION_EXPORT const unsigned char gqbaoHttpEngineVersionString[];

@@ -43,14 +43,13 @@ s.source_files = 'gqbHttpEngine/gqbHttpEngine/**/*'
   s.dependency 'AFNetworking', '~> 3.2.0'
   
   
-      s.subspec 'engine' do |f|
-          #  app.source_files = 'gqbHttpEngine/Classes/HTTP/**/*'
-          f.source_files = 'gqbHttpEngine/Classes/HTTPEngine.{h,m}'
-
-      end
-    
+  
     s.subspec 'XML' do |f|
         f.source_files = 'gqbHttpEngine/Classes/XMLDictionary.{h,m}'
+    end
+    
+    s.subspec 'QT' do |f|
+        f.source_files = 'gqbHttpEngine/Classes/HTTPEngine.{h,m}'
     end
     
    #  /Users/geqiangbao/Github/gqbHttpEngine/gqbHttpEngine/Classes/HTTP/HTTPEngine.h
