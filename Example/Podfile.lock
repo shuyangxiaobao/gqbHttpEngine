@@ -24,13 +24,13 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - gqbaoHttpEngine (1.0.10):
+  - gqbaoHttpEngine (1.0.12):
     - AFNetworking (~> 3.2.0)
-    - gqbaoHttpEngine/CustomView (= 1.0.10)
-    - gqbaoHttpEngine/XML (= 1.0.10)
-  - gqbaoHttpEngine/CustomView (1.0.10):
+    - gqbaoHttpEngine/CustomView (= 1.0.12)
+    - gqbaoHttpEngine/HTTP (= 1.0.12)
+  - gqbaoHttpEngine/CustomView (1.0.12):
     - AFNetworking (~> 3.2.0)
-  - gqbaoHttpEngine/XML (1.0.10):
+  - gqbaoHttpEngine/HTTP (1.0.12):
     - AFNetworking (~> 3.2.0)
   - Specta (1.0.7)
 
@@ -51,7 +51,7 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  gqbaoHttpEngine: a0b771afa7f4a9e5df484d30c8ada887a9f7e713
+  gqbaoHttpEngine: 0b0178c1d0bf21d9e4afc786ec8b1061c8469800
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
 PODFILE CHECKSUM: 591c286efc9ad171cdc21ef30e2b959bce6b9e93
